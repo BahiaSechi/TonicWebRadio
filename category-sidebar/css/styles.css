@@ -104,29 +104,11 @@ header .main-menu{ display: inline-block; float: left; }
 
 header .main-menu > li{ float: left; }
 
-header .main-menu > li > a{ height: 75px; line-height: 75px; padding: 0 25px; border-right: 1px solid #ffb559; }
+header .main-menu > li > a{ height: 75px; line-height: 75px; padding: 0 25px; }
 
 header .main-menu > li > a:hover{  background: #eee; }
 
-header .main-menu > li:first-child > a{ border-left: 1px solid #ffb559; }
-
-
 header .visible.main-menu{ display: block; }
-
-
-
-/* SEARCH AREA */
-
-header .src-area{ position: relative; height: 60px; width: 50%; float: right; display: inline-block; background: #F5F7F6; }
-
-header .src-area .src-input{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%;
-	padding: 0 20px 0 70px; background: transparent; border: 0; outline: 0; }
-
-header .src-area .src-input:focus{ box-shadow: 0px 0px 1px #aaa; }
-
-header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width: 40px; background: none; border: 0; 
-	font-size: 1.2em; outline: 0; margin-left: 20px; opacity: .6; cursor: pointer; z-index: 10; }
-
 
 /* NAV ICON */
 
@@ -151,7 +133,10 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width
 
 .blog-area .row div[class^="col"] { margin-bottom: 30px; }
 
-.blog-area{ text-align: center; background: #EDF3F3; }
+.blog-area{
+	text-align: center;
+	background-image: linear-gradient(to right bottom, #ffecd3, #ffefda, #fff2e1, #fff5e9, #fff8f0);
+}
 
 .blog-area .single-post{ height: 100%; position: relative; padding-bottom: 45px;
 	overflow: hidden; box-shadow: 0px 0px 5px rgba(0,0,0,.1); border: 1px solid #ddd; background: #fff; }
@@ -163,7 +148,7 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width
 
 .single-post .post-footer{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center; }
 
-.single-post .post-footer > li{ width: 33.33%; display: inline-block; border-right: 1px solid #fff; background: #EDF3F3; }
+.single-post .post-footer > li{ width: 33.33%; display: inline-block; border-right: 1px solid #fff; background: #fff; }
 
 .single-post .post-footer > li:first-child{ float: left; }
 
@@ -181,10 +166,9 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width
 .post-style-1 .blog-image{ max-height: 200px; overflow: hidden;}
 
 .load-more-btn{ padding: 15px 40px; margin: 10px 0 30px; transition: all .3s; box-shadow: 0px 0px 2px rgba(0,0,0,.4);
-	background: #C3D8F5; }
+	background: #ffcf81; }
 
-.load-more-btn:hover{ transform: translateY(-2px); box-shadow: 5px 10px 20px rgba(0,0,0,.3); } 
-
+.load-more-btn:hover{ transform: translateY(-2px); box-shadow: 5px 10px 20px rgba(0,0,0,.3); color:black}
 
 
 /* ---------------------------------
@@ -195,37 +179,9 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width
 
 .blog-area .info-area .title{ padding: 0; margin-bottom: 20px; }
 
-
-
 /* ABOUT AREA */
 
-.blog-area .info-area .about-area{ padding: 0 30px 30px; margin: 0 0 30px; border-bottom: 1px solid #eee; }
-
-
-
-/* SUBSCRIBE AREA */
-
-.info-area .subscribe-area{ padding: 0 30px 30px; margin: 0 0 30px; border-bottom: 1px solid #eee; }
-
-.info-area .input-area{ position: relative; height: 50px; width: 100%; box-shadow: 0px 0px 1px #bbb; background: #F5F7F6; }
-
-.info-area .input-area .email-input{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%;
-	padding: 0 70px 0 20px; background: transparent; border: 0; outline: 0; }
-
-.info-area .input-area .email-input:focus{ box-shadow: 0px 0px 1px #aaa; }
-
-.info-area .input-area .submit-btn{ position: absolute; top: 0; bottom: 0; right: 0; width: 50px; background: none; 
-	border: 0; outline: 0; font-size: 1.7em; margin-right: 10px; opacity: .8; cursor: pointer; }
-
-
-
-/* TAG AREA */
-
-.info-area .tag-area{ padding: 0 30px; }
-
-.tag-area > ul > li > a{ padding: 7px 12px; float: left; margin: 0 5px 5px 0; border: 1px solid #eee; background: #F5F6F8; }
-
-.tag-area > ul > li > a:hover{ background: none; }
+.blog-area .info-area .about-area{ padding: 0 30px 30px; margin: 0 0 30px; }
 
 
 /* ---------------------------------
