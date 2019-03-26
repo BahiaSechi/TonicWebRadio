@@ -17,13 +17,9 @@
     transform: scale(1.05);
 }
 .album {
-    background: linear-gradient(rgba(191, 127, 63, 0.25), rgba(237, 193, 150, 0.55)), url('https://i.pinimg.com/originals/11/bf/e5/11bfe59440e9120f7d3ddf2126c138bb.gif');
-    background-repeat: no-repeat;
     background-size: 300px;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
-    position: absolute;
 }
 .heart {
     position: absolute;
