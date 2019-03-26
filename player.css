@@ -10,8 +10,8 @@
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 5px 5px 15px rgba(54, 79, 60, .4);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #player:hover {
     transform: scale(1.05);
@@ -44,7 +44,7 @@
     bottom: 0;
     background: rgba(255, 255, 255, .85);
     transform: translateY(35px);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .up {
     transform: translateY(0px);
