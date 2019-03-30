@@ -59,7 +59,8 @@ let list = new Playlist(
     {path: 'music/dance.mp3', title: "D.A.N.C.E.", artist: "Justice"},
     {path: 'music/bluesky.mp3', title: "Mr. Blue Sky", artist: "Electric Light Orchestra"},
     {path: 'music/wallspin.mp3', title: "Wallspin", artist: "Neil Cicierga"},
-    {path: 'music/pizza.mp3', title: "Funiculì, Funiculà", artist: "Luigi Denza"}
+    {path: 'music/pizza.mp3', title: "Funiculì, Funiculà", artist: "Luigi Denza"},
+    {path: 'music/dean.mp3', title: "Dayfly", artist: "Dean ft. Sulli, Rad Museum"}
 );
 
 setInterval(() => {
